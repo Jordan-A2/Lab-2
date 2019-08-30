@@ -1,0 +1,1 @@
+Lab 2. Contains HTML and CSS code as well as relevant images for CV.

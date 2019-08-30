@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Verdana, sans-serif;
+    color: #4F545F;
+}
+
+.title{
+    font-style: italic;
+    font-weight: 550;
+    background-color: #cccccc;
+}
+
+.address{
+    padding: 0;
+    margin: 0;
+    background-color: #cccccc;
+    overflow: hidden;
+}
+
+h1{
+    padding: 20px;
+    margin: 0;
+    color: white;
+    background-color: #55B3C5;
+}
+
+h4{
+    border: 1px solid #6278B0;
+    padding-left: 20px;
+    display: block;
+    color: #42579C;
+}
+
+div{
+    padding-left: 20px;
+    display: flex;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside{
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rightside{
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+
+#leftitem{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#rightitem{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    color: white;
+    width: 300px;
+    background-color: #cccccc;
+}
+
+.button{
+    border: 0;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+#DTU{
+    background-color: #55B3C5;
+}
+
+#ITESM{
+    background-color: #55B3C5;
+}
+
+#Bath{
+    background-color: #55B3C5;
+}
+
+.button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.intphoto{
+    display: flex;
+    flex-direction: row;
+}
+
+.int{
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+
+.photo{
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+footer{
+    padding: 20px;
+    margin: 0;
+    color: white;
+    background-color: #55B3C5;
+}
